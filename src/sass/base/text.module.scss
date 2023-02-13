@@ -2,10 +2,21 @@
 
 .title{
     font-size:1.8rem;
-    letter-spacing: .5rem;
+    letter-spacing: 1rem;
     color: $White;
     margin:unset;
     text-align: center;
     padding-top: 20rem;
     text-transform: uppercase;
+    margin-bottom: 8rem;
+}
+.detail{
+    font-size:1.4rem;
+    color: $primaryColor;
+    margin:unset;
+    text-align: center;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    user-select: none;
 }

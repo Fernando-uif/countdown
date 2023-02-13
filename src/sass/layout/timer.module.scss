@@ -1,0 +1,29 @@
+@import "../abstract/variables.scss";
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:3.5rem;
+}
+.time {
+  font-size: 8rem;
+  color: $secondaryColor;
+  text-align: center;
+  width: 15rem;
+  background-color: $Darkdesaturated;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  height: 13rem;
+  line-height: 13rem;
+  box-shadow:0 1rem  $VerydarkPurple ;
+  position:relative;
+  user-select: none;
+}
+.line{
+    // height: .1rem;
+    background-color: black;
+    display: block;
+    width: 100%;
+    position:absolute;
+    top: 50%;
+}
