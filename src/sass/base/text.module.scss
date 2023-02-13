@@ -1,0 +1,11 @@
+@import "../abstract/variables.scss";
+
+.title{
+    font-size:1.8rem;
+    letter-spacing: .5rem;
+    color: $White;
+    margin:unset;
+    text-align: center;
+    padding-top: 20rem;
+    text-transform: uppercase;
+}
