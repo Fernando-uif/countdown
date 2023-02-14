@@ -1,13 +1,31 @@
-@import '../abstract/variables.scss';
+@import "../abstract/variables.scss";
 
-.background{
-    background-color:$Verydark;
-    height: 100vh;
+.background {
+  background-color: $Verydark;
+  height: 100vh;
 }
-.start{
-    background-image: url('../../../src/assets/images/bg-stars.svg');
+.start {
+  background-image: url("../../../src/assets/images/bg-stars.svg");
 }
-.mountains{
-    background-image: url('../../../src/assets/images/pattern-hills.svg');
-    height: 20vh;
+.mountains {
+  background-image: url("../../../src/assets/images/pattern-hills.svg");
+  height: 20rem;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  background-repeat: repeat-x;
+}
+.icon {
+  &:hover {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(29%) saturate(5763%)
+      hue-rotate(310deg) brightness(100%) contrast(97%);
+    cursor: pointer;
+  }
+}
+.containSocial {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  margin-top: 6rem;
 }
